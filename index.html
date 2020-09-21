@@ -1,0 +1,22 @@
+<!-- ネストしたルート -->
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>Nested routes - Vue Router</title>
+   <link rel="stylesheet" href="CSS/style.css">
+ </head>
+ <body>
+  <div id="app">
+    <router-link to="/">Home</router-link>
+    <router-link to="/users/123">User</router-link>
+    <router-link to="/users/123/profile">Profile</router-link>
+    <router-link to="/users/123/posts">Posts</router-link>
+    <router-view></router-view>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue-router@3.0.6/dist/vue-router.min.js"></script>
+  <script src="js/main.js"></script> 
+ </body>
+</html>

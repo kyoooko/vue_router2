@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body {
+  color: white;
+  background: #fcebb6;
+}
+
+.user {
+  background: #5e412f;
+  padding: 5px;
+}
+
+.profile {
+  background: #78c0a8;
+  padding: 5px;
+}
+
+.posts {
+  background: #f07818;
+  padding: 5px;
+}
